@@ -50,6 +50,8 @@ This package uses forked versions of two repositories. The original repositories
 
 Before using the tools and scripts in this repository, you need to configure certain environment variables and potentially set up a virtual environment.
 
+Download [pytorch_model.bin](https://zenodo.org/records/10555604/files/pytorch_model.bin?download=1) from [https://doi.org/10.5281/zenodo.10555603](https://doi.org/10.5281/zenodo.10555603) and move it inside [code/doxpert/question_extractor/data/models/distilt5-disco-qaamr-multi](code/doxpert/question_extractor/data/models/distilt5-disco-qaamr-multi).
+
 ### Environment Variables
 
 To use this package, you must set up two environment variables: `OPENAI_ORGANIZATION` and `OPENAI_API_KEY`. These variables represent your OpenAI organization identifier and your API key respectively.
